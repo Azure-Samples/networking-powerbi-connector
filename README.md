@@ -116,8 +116,7 @@ Converted .CSV file of events log has following columns
 #####3.  OperationsLogConverter
 
 This app needs to be authorized to access Azure AD management API.
-Fore more information on Azure AD authorization go to: 
-https://azure.microsoft.com/en-us/documentation/articles/resource-group-create-service-principal-portal/
+Fore more information on Azure AD authorization go to: https://azure.microsoft.com/en-us/documentation/articles/resource-group-create-service-principal-portal/
 
 Operations logs are retrieved through the Azure Insight API.  For available properties look at member of [Microsoft.Azure.Insight.Models.EventData class definition](https://msdn.microsoft.com/en-us/library/azure/microsoft.azure.insights.models.eventdata.aspx).
 
