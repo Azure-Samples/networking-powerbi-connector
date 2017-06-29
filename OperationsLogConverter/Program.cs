@@ -84,7 +84,7 @@ namespace OperationsLogConverterSample
 
         private static string GetAuthorizationHeader()
         {
-            AuthenticationContext context = new AuthenticationContext($"https://login.windows.net/{TenantID}");
+            AuthenticationContext context = new AuthenticationContext($"https://login.microsoftonline.com/{TenantID}");
 
             AuthenticationResult result = context.AcquireToken("https://management.core.windows.net/", ClientID, RedirectURI);
 
